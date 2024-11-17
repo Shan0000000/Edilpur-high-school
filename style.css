@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('school.jpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fdfdfd; /* White text for heading */
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+}
+
+p {
+    color: #fdfdfd; /* White text for paragraph */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+}
+
+.nav {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffd700; /* Gold for links */
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: #ff4500; /* Orange when hovering */
+}

@@ -1,0 +1,65 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('teachers.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 140, 186, 0.8); /* Transparent blue overlay */
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Teachers Section */
+main {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Teacher Cards */
+.teacher-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-card .photo {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.teacher-card p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.teacher-card span {
+    font-weight: bold;
+    color: #555;
+}
