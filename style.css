@@ -34,22 +34,4 @@ a:hover {
     color: #ff4500; /* Orange when hovering */
 }
 
-#trailer {
-    position: fixed; /* Keeps the trailer in the corner even when scrolling */
-    bottom: 20px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
-    background-color: rgba(255, 255, 255, 0.8); /* Light semi-transparent background */
-    color: #ff9900; /* Sunny-themed text color */
-    border: 1px solid #ffa500; /* Thin border in a matching sunny tone */
-    padding: 10px 15px;
-    border-radius: 10px; /* Rounded corners */
-    font-family: Arial, sans-serif;
-    font-size: 0.9em; /* Small, unobtrusive text size */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
-    z-index: 9999; /* Ensures it stays above all other elements */
-}
 
-#trailer p {
-    margin: 5px 0;
-    line-height: 1.4;
-}
